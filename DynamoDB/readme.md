@@ -1,5 +1,9 @@
 # DynamoDB
 
+## DEEP DIVE
+
+https://github.com/linuxacademy/content-dynamodb-deepdive
+
 ## boto3 scripts
 
 https://github.com/linuxacademy/content-lambda-boto3/tree/master/DynamoDB
