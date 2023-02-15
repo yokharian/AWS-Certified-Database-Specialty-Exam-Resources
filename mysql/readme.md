@@ -2,7 +2,7 @@
 
 ## connect to mysql command
 
-```sh
+```bash
 mysql -h <HOST> -u <USER> -p <DB_TO_USE_OPTIONAL_PARAMETER>
 ```
 
@@ -34,5 +34,15 @@ SELECT * FROM <table_name> LIMIT 10
 SELECT * INTO OUTFILE 'table.csv'
     FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
     LINES TERMINATED BY '\n'
-FROM <table_name>
+FROM <TABLE>
+```
+
+6.- Export results into a tsv file
+```bash
+echo 'SELECT * FROM dms_source' | mysql -B -h <HOST> -u <USER> -p <TABLE> > report.tsv
+```
+
+7.- Use MysqlDump to Dump a Table
+```bash
+mysqldump -u <USER> -h <HOST> -p -t -T<OUTPUT_PATH> <DB> <TABLE> --fields-terminated-by=,
 ```
