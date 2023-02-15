@@ -1,5 +1,6 @@
-# AWS Certified Database - Specialty Exam Preparation Guide and Study Tips
-In late November of 2019, AWS [announced](https://aws.amazon.com/blogs/database/new-aws-certification-purpose-built-to-validate-database-expertise/) a new specialty certification focusing specifically on database technologies.  The AWS Certified Database - Specialty Exam beta period started in early December of 2019 with the standard certification exam availability target date being April of 2020.  At the start of December, I participated in the beta attempting the beta exams.  As of this writing, I do not know my results and whether on not I achieved the certification.  Nevertheless, I thought it would be useful to share my experience.  I'll try to list the topics covered by the exam questions, and provide some insight and resources that are helpful in preparing for the exam.
+# AWS Certified Database - Specialty Exam Resources
+
+![imagen](https://user-images.githubusercontent.com/63127299/218899546-c4b59b76-2932-42e3-97f7-b679fb8cef2e.png)
 
 ## Exam Description
 The database certification exam covers five domains:
@@ -122,10 +123,3 @@ Below is a list of few links I found especially informative.
 - [Performance at Scale with Amazon ElastiCache](https://d1.awsstatic.com/whitepapers/performance-at-scale-with-amazon-elasticache.pdf?did=wp_card&trk=wp_card)
 - [Database Caching Strategies Using Redis](https://docs.aws.amazon.com/whitepapers/latest/database-caching-strategies-using-redis/database-caching-strategies-using-redis.pdf#welcome)
 - [Getting Started with Amazon DocumentDB (with MongoDB Compatibility)](https://d1.awsstatic.com/whitepapers/getting-started-with-amazon-documentdb.pdf?did=wp_card&trk=wp_card)
-
-## Final Thoughts
-In my opinion, AWS Database Specialty is an excellent addition to the AWS Certification program.  Database technologies are an integral and crucial part of any cloud based solution. Having a strong competency in these technologies is critical to being a successful architect and designing apt solutions.
-
-I hope this guide and contents within are helpful to those preparing to attempt the exam in the future.
-
-Good Luck!
